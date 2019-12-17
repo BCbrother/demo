@@ -23,8 +23,5 @@ def writeTxt(testList):
 testTxt = getText()
 #对文本进行切割
 words = testTxt.split()
-
 # 覆盖写入txt文档
 writeTxt(words)
-# for word in words:
-#     print(word)
