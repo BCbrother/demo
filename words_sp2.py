@@ -31,8 +31,7 @@ def writeTxt(testList):
     for line in testList:
         f.write(line + '\n')
     f.close()
-def __main__():
-    txt = getText()
-    words = split_words(txt)       
-    writeTxt(words)
-__main__()
+
+txt = getText()      #依次调用：获取文本函数、文本分词函数、写入文本函数
+words = split_words(txt)       
+writeTxt(words)                
